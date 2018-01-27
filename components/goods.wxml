@@ -1,0 +1,3 @@
+<view>
+  <image src='{{goodsUrl}}' mode='aspectFit'></image>
+</view>
