@@ -1,0 +1,20 @@
+<view class="goods-frame">
+  <view class='goods-image'>
+    <image src='{{goodsUrl}}' mode='aspectFit' class='goods-pic'></image>
+  </view>
+  <view class='godds-detail'>
+    <view>
+      <text>{{goodsName}}</text>
+    </view>
+    <view>
+      <text>{{goodsDesc}}</text>
+    </view>
+    <view class="goods-bottom">
+      <text class="gods-price">{{goodsPrice}}</text>
+      <view class='goods-unit'>
+        <input class='goods-num' value='{{goodsNum}}' type="number" maxlength="2" />
+        <text>{{goodsUnit}}</text>
+      </view>
+    </view>
+  </view>
+</view>

@@ -3,7 +3,7 @@ Component({
   properties: {
     goodsUrl: {
       type: String,
-      value: "images/default/goods-default.png"
+      value: "/images/default/goods-default.png"
     },
     goodsName: {
       type: String,
@@ -11,7 +11,7 @@ Component({
     },
     goodsDesc: {
       type: String,
-      value: ""
+      value: "暂未描述"
     },
     goodsPrice: {
       type: Number,
@@ -23,7 +23,7 @@ Component({
     },
     goodsUnit: {
       type: String,
-      value: "两"
+      value: "份"
     }
   },
 

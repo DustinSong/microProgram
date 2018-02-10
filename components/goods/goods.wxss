@@ -1,0 +1,34 @@
+.goods-frame {
+  width: 100%;
+  height: 80px;
+  padding: 5px;
+}
+.goods-image{
+  width: 25%;
+}
+.goods-pic{
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+.godds-detail{
+  width: 75%;
+  height: 80px;
+  float: left;
+  position:relative;
+}
+.goods-bottom{
+  width: 90%;
+  position:absolute;
+  bottom:0px;
+}
+.gods-price{
+  float: left;
+}
+.goods-num{
+  display:inline-block;
+  width: 25px;
+}
+.goods-unit{
+  float: right;
+}
