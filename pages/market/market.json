@@ -1,6 +1,5 @@
 {
   "usingComponents": {
-    "goods": "/components/goods/goods",
-    "test":"/components/test/test"
+    "goods": "/components/goods/goods"
   }
 }

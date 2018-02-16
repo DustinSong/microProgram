@@ -1,7 +1,7 @@
 {
   "pages": [
-    "pages/market/market",
-    "pages/order/order",
+    "pages/cart/cart",
+    "pages/market/market",    
     "pages/account/account"
   ],
   "window": {
@@ -15,19 +15,17 @@
     "selectedColor":"#1296db",
     "borderStyle":"black",
     "list": [
-      {
+     {
         "pagePath": "pages/market/market",
         "iconPath":"icons/tab/store.png",
         "selectedIconPath": "icons/tab/store-selected.png",
         "text": "菜场"
-      },
-      {
-        "pagePath": "pages/order/order",
+      },{
+        "pagePath": "pages/cart/cart",
         "iconPath": "icons/tab/cart.png",
         "selectedIconPath": "icons/tab/cart-selected.png",
-        "text": "订单"
-      },
-      {
+        "text": "购物车"
+      },{
         "pagePath": "pages/account/account",
         "iconPath": "icons/tab/account.png",
         "selectedIconPath": "icons/tab/account-selected.png",

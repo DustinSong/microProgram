@@ -10,9 +10,11 @@
       <text>{{goodsDesc}}</text>
     </view>
     <view class="goods-bottom">
-      <text class="gods-price">{{goodsPrice}}</text>
+      <text class="goods-price">{{goodsPrice}}</text>
       <view class='goods-unit'>
-        <input class='goods-num' value='{{goodsNum}}' type="number" maxlength="2" />
+        <label class="goods-num-opt">-</label>
+        <label class='goods-num'>{{goodsNum}}</label>
+        <label class="goods-num-opt">+</label>
         <text>{{goodsUnit}}</text>
       </view>
     </view>

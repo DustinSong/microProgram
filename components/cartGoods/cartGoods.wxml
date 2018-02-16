@@ -1,0 +1,22 @@
+<view class="cart-goods-frame">
+  <view class='cart-goods-select'>
+    <checkbox checked='{{cartGoodsSelected}}'></checkbox>
+  </view>
+  <view class='cart-goods-image'>
+    <image src='{{cartGoodsUrl}}' mode='aspectFit' class='cart-goods-pic'></image>
+  </view>
+  <view class='cart-godds-detail'>
+    <view>
+      <text>{{cartGoodsName}}</text>
+    </view>
+    <view class="cart-goods-bottom">
+      <text class="cart-goods-price">{{cartGoodsPrice}}</text>
+      <view class='cart-goods-unit'>
+        <label class="cart-goods-num-opt">-</label>
+        <label class='cart-goods-num'>{{cartGoodsNum}}</label>
+        <label class="cart-goods-num-opt">+</label>
+        <text>{{cartGoodsUnit}}</text>
+      </view>
+    </view>
+  </view>
+</view>
