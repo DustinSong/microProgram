@@ -1,0 +1,44 @@
+.cartView {
+  height: 100%;
+  position: relative;
+}
+
+.bottomView {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  border: solid #777 1px;
+}
+
+.checkAll {
+  padding: 5px;
+}
+
+.total {
+  width: 20%;
+  height: 35px;
+}
+
+.totalText {
+  width: 20%;
+  position: absolute;
+  top: 20%;
+  text-align: center;
+}
+
+.balance {
+  width: 20%;
+  height: 35px;
+  background-color: #777;
+}
+
+.balanceText {
+  width: 20%;
+  position: absolute;
+  top: 20%;
+  text-align: center;
+}
+
+.right {
+  float: right;
+}
