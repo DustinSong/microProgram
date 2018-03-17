@@ -1,0 +1,23 @@
+<form class='addressForm'>
+  <view class='widthClass'>
+    <label for='addressUserName' class='addressUserNameLabel'>联系人</label>
+    <input type='text' placeholder='请填写姓名' id='addressUserName'></input>
+  </view>
+  <view class='widthClass'>
+    <radio-group class='addressUserSex'>
+      <radio value='1' checked='true'>先生</radio>
+      <radio value='0'>女士</radio>
+    </radio-group>
+  </view>
+  <view class='widthClass'>
+    <label for='addressUserPhone' class='addressUserPhoneLabel'>手机号</label>
+    <input type='number' placeholder='请填写手机号' id='addressUserPhone'></input>
+  </view>
+  <view class='widthClass'>
+    <label for='address' class='addressLabel'>联系人</label>
+    <input type='text' placeholder='请填写地址' id='address'></input>
+  </view>
+  <view class='widthClass'>
+    <button>保存</button>
+  </view>
+</form>

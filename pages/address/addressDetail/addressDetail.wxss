@@ -1,0 +1,50 @@
+.addressForm{
+  padding: 10px;
+}
+.widthClass{
+  width: 100%;
+  height: 40px;
+}
+.addressUserNameLabel {
+  width: 25%;
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+  padding: 5px;
+}
+
+#addressUserName {
+  width: 70%;
+  float: left;
+}
+
+.addressUserSex {
+  width: 70%;
+  float: right;
+}
+
+.addressUserPhoneLabel {
+  width: 25%;
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+  padding: 5px;
+}
+
+#addressUserPhone {
+  width: 70%;
+  float: left;
+}
+
+.addressLabel {
+  width: 25%;
+  font-size: 16px;
+  font-weight: bold;
+  float: left;
+  padding: 5px;
+}
+
+#address {
+  width: 70%;
+  float: left;
+}

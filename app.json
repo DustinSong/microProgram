@@ -1,8 +1,11 @@
 {
   "pages": [
+    "pages/account/account",
     "pages/cart/cart",
-    "pages/market/market",    
-    "pages/account/account"
+    "pages/market/market",
+    "pages/address/addressList/addressList",
+    "pages/address/addressDetail/addressDetail",
+    "pages/order/order"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -12,20 +15,22 @@
   },
   "tabBar": {
     "color": "#000000",
-    "selectedColor":"#1296db",
-    "borderStyle":"black",
+    "selectedColor": "#1296db",
+    "borderStyle": "black",
     "list": [
-     {
+      {
         "pagePath": "pages/market/market",
-        "iconPath":"icons/tab/store.png",
+        "iconPath": "icons/tab/store.png",
         "selectedIconPath": "icons/tab/store-selected.png",
         "text": "菜场"
-      },{
+      },
+      {
         "pagePath": "pages/cart/cart",
         "iconPath": "icons/tab/cart.png",
         "selectedIconPath": "icons/tab/cart-selected.png",
         "text": "购物车"
-      },{
+      },
+      {
         "pagePath": "pages/account/account",
         "iconPath": "icons/tab/account.png",
         "selectedIconPath": "icons/tab/account-selected.png",

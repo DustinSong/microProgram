@@ -1,0 +1,6 @@
+<scroll-view scroll-y>
+  <address></address>
+</scroll-view>
+<view class='bottomView'>
+  <navigator url="/pages/address/addressDetail/addressDetail">新增地址</navigator>
+</view>

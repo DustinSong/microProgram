@@ -1,0 +1,10 @@
+<view>
+  <view>
+    <label>{{username}}</label>
+    <label>{{phone}}</label>
+  </view>
+  <view>{{address}}</view>
+  <view>
+    <checkbox checked='{{isDefault}}'>默认地址</checkbox>
+  </view>
+</view>

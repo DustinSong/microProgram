@@ -1,0 +1,12 @@
+.accountInfo {
+  height: 120px;
+  background-color: #0a0;
+}
+.orderInfo {
+  height: 80px;
+}
+.orderItem{
+  width: 33%;
+  float: left;
+  text-align: center;
+}

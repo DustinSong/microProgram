@@ -1,0 +1,10 @@
+<view class="accountInfo">
+  <image>头像</image>
+  <label>用户名</label>
+</view>
+<view class='orderInfo'>
+  <view class='orderItem'><navigator url='/pages/order/order'>待支付</navigator></view>
+  <view class='orderItem'><navigator url='/pages/order/order'>待收货</navigator></view>
+  <view class='orderItem'><navigator url='/pages/order/order'>已完成</navigator></view>
+</view>
+<navigator url="/pages/address/addressList/addressList">我的收获地址</navigator>
